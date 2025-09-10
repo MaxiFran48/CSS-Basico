@@ -3,12 +3,12 @@
     justify-content: space-around;
     align-items: center;
     border: 2px solid #BE6841;
-    padding: 20px;
+    padding: 0;
+    margin: 100px;
 }
 
 img {
-    width: 150px;
-    margin: 10px;
+    width: 50%;
 }
 
 h1 {
@@ -20,4 +20,9 @@ p {
     font-size: 18px;
     color: #1C1D1F;
     line-height: 1.5em;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #F2E8E4, #BE6841);
 }
