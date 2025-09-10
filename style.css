@@ -7,6 +7,15 @@
     margin: 100px;
 }
 
+.text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+}
+
 img {
     width: 50%;
 }
@@ -25,4 +34,8 @@ p {
 
 body {
     background: linear-gradient(to bottom, #F2E8E4, #BE6841);
+}
+
+a {
+    text-align: center;
 }
